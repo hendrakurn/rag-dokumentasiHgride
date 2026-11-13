@@ -1,0 +1,116 @@
+{
+  "chat.py": {
+    "mtime": 1787717107.9265728,
+    "seen": 1787726887.5910473,
+    "ast_hash": "4db452f392e519e33ac89dfb7296066f",
+    "semantic_hash": "4db452f392e519e33ac89dfb7296066f"
+  },
+  "ingest.py": {
+    "mtime": 1787708823.820624,
+    "seen": 1787713509.321597,
+    "ast_hash": "6ba11dea818da02f5f15e650a7688fea",
+    "semantic_hash": "6ba11dea818da02f5f15e650a7688fea"
+  },
+  "api.py": {
+    "mtime": 1787716333.6773136,
+    "seen": 1787716464.869354,
+    "ast_hash": "93c94983d37e786d97554e318dd67652",
+    "semantic_hash": "93c94983d37e786d97554e318dd67652"
+  },
+  "core/__init__.py": {
+    "mtime": 1787716239.1230133,
+    "seen": 1787716464.8694265,
+    "ast_hash": "c87bf30ca71398fa7fa1d23a9243ee51",
+    "semantic_hash": "c87bf30ca71398fa7fa1d23a9243ee51"
+  },
+  "core/config.py": {
+    "mtime": 1787716239.1250134,
+    "seen": 1787716464.8694277,
+    "ast_hash": "aedf02323e00f85c0ba7d707aa0a8cfc",
+    "semantic_hash": "aedf02323e00f85c0ba7d707aa0a8cfc"
+  },
+  "core/prompts.py": {
+    "mtime": 1787716239.1257238,
+    "seen": 1787716464.8694286,
+    "ast_hash": "eb7ec15827f038570f704a22165bca06",
+    "semantic_hash": "eb7ec15827f038570f704a22165bca06"
+  },
+  "core/rag.py": {
+    "mtime": 1787716239.1258028,
+    "seen": 1787716464.8694296,
+    "ast_hash": "af771adb250f9ed172913f2f235f9f1b",
+    "semantic_hash": "af771adb250f9ed172913f2f235f9f1b"
+  },
+  "GRAPHIFY_SETUP.md": {
+    "mtime": 1787715544.3831978,
+    "seen": 1787716464.869469,
+    "ast_hash": "693083a80d869f53420d3017ca414836",
+    "semantic_hash": "693083a80d869f53420d3017ca414836"
+  },
+  "PRODUCT.md": {
+    "mtime": 1787714974.0612502,
+    "seen": 1787716464.86947,
+    "ast_hash": "e561bff9d2ddbed6f2db9e62387da8e1",
+    "semantic_hash": "e561bff9d2ddbed6f2db9e62387da8e1"
+  },
+  "implemetation.md": {
+    "mtime": 1787717648.949745,
+    "seen": 1787726887.5913014,
+    "ast_hash": "a3516f987aa2084a41ce887c9dbdabff",
+    "semantic_hash": "a3516f987aa2084a41ce887c9dbdabff"
+  },
+  "step.md": {
+    "mtime": 1787709803.37745,
+    "seen": 1787716464.8694718,
+    "ast_hash": "28aa0a2868e36934c2866d4d98e7be1b",
+    "semantic_hash": "28aa0a2868e36934c2866d4d98e7be1b"
+  },
+  ".impeccable/design.json": {
+    "mtime": 1787724606.786179,
+    "seen": 1787726887.5895379,
+    "ast_hash": "440827ba88a79837d26d847d6b87aa51",
+    "semantic_hash": "440827ba88a79837d26d847d6b87aa51"
+  },
+  "app_streamlit.py": {
+    "mtime": 1787723880.751042,
+    "seen": 1787726887.5910442,
+    "ast_hash": "59197b38934feb4a9185c441ff5c62a1",
+    "semantic_hash": "59197b38934feb4a9185c441ff5c62a1"
+  },
+  "DESIGN.md": {
+    "mtime": 1787724553.4057877,
+    "seen": 1787726887.5912948,
+    "ast_hash": "7ae03f66415a9d3f38a26e3db3ca1deb",
+    "semantic_hash": "7ae03f66415a9d3f38a26e3db3ca1deb"
+  },
+  "FASE1_WEB.md": {
+    "mtime": 1787726513.3012226,
+    "seen": 1787726887.5912964,
+    "ast_hash": "9bb576c1e75c05f0e8a59b33753704a1",
+    "semantic_hash": "9bb576c1e75c05f0e8a59b33753704a1"
+  },
+  "FASE2_BACKEND_API.md": {
+    "mtime": 1787717949.0761302,
+    "seen": 1787726887.5912979,
+    "ast_hash": "d3a70f77fde59a1269b7cd545ab3dd74",
+    "semantic_hash": "d3a70f77fde59a1269b7cd545ab3dd74"
+  },
+  "RUNNING.md": {
+    "mtime": 1787726384.3967547,
+    "seen": 1787726887.5912995,
+    "ast_hash": "5a1b3436fab59eb01112ea1ab8ba6bd1",
+    "semantic_hash": "5a1b3436fab59eb01112ea1ab8ba6bd1"
+  },
+  ".impeccable/review/desktop.png": {
+    "mtime": 1787723959.4286697,
+    "seen": 1787726887.5913026,
+    "ast_hash": "136da2ddc287bfc7e7610f36629a5c5e",
+    "semantic_hash": "136da2ddc287bfc7e7610f36629a5c5e"
+  },
+  ".impeccable/review/mobile.png": {
+    "mtime": 1787723971.710322,
+    "seen": 1787726887.5913038,
+    "ast_hash": "26849a7d9576ef59a71eadb12801a4f6",
+    "semantic_hash": "26849a7d9576ef59a71eadb12801a4f6"
+  }
+}

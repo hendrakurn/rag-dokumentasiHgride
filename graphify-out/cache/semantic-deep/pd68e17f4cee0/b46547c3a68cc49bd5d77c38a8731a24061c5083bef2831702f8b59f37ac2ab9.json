@@ -1,0 +1,1 @@
+{"nodes": [{"id": "gemini_3_6_flash", "label": "Gemini 3.6 Flash", "file_type": "concept", "source_file": "hgrid-glass-desktop-8502-a11y.md", "rationale": "The LLM model used by the assistant."}], "edges": [], "hyperedges": []}

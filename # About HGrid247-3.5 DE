@@ -1,0 +1,109 @@
+# About HGrid247-3.5 DE
+
+
+## [HGrid247-3.5 DE User Guide](https://hgridde.labs247.id/dashboard/hgrid247/guide/hgrid_user_guide.html)
+[HGrid247-3.5 DE User Guide](https://hgridde.labs247.id/dashboard/hgrid247/guide/hgrid_user_guide.html)
+
+## What is HGrid247-3.5 DE ?
+
+### Key Capabilities
+- Visual drag-and-drop workflow design
+- Automatic code generation
+- Support for batch and streaming workloads
+- Multiple distributed processing engines as build targets
+- Reduced dependency on manual coding
+
+### Supported Processing Engines and Build Outputs
+1. Hadoop [MapReduce](https://hgridde.labs247.id/dashboard/hgrid247/engine/mapreduce.html)
+        
+            Output file:
+<project-name>_mr.jar
+2. Output file:
+<project-name>_mr.jar
+3. Apache [Spark 1.6 RDD](https://hgridde.labs247.id/dashboard/hgrid247/engine/sparkrdd.html)
+    
+        Output file:
+            <project-name>_spark1.jar
+4. Output file:
+            <project-name>_spark1.jar
+5. Apache [Spark 2.x RDD](https://hgridde.labs247.id/dashboard/hgrid247/engine/spark2rdd.html)
+    
+        Output file:
+            <project-name>_spark2.jar
+6. Output file:
+            <project-name>_spark2.jar
+7. Apache [Spark 2.x (Dataset)](https://hgridde.labs247.id/dashboard/hgrid247/engine/spark2ds.html)
+    
+        Output file:
+            <project-name>_spark2ds.jar
+8. Output file:
+            <project-name>_spark2ds.jar
+9. Apache [Beam 2.29.0 (Batch)](https://hgridde.labs247.id/dashboard/hgrid247/engine/beam.html)
+    
+    
+Output file:
+    <project-name>_beam.jar
+10. Output file:
+    <project-name>_beam.jar
+[MapReduce](https://hgridde.labs247.id/dashboard/hgrid247/engine/mapreduce.html)
+- Output file:
+<project-name>_mr.jar
+[Spark 1.6 RDD](https://hgridde.labs247.id/dashboard/hgrid247/engine/sparkrdd.html)
+- Output file:
+            <project-name>_spark1.jar
+[Spark 2.x RDD](https://hgridde.labs247.id/dashboard/hgrid247/engine/spark2rdd.html)
+- Output file:
+            <project-name>_spark2.jar
+[Spark 2.x (Dataset)](https://hgridde.labs247.id/dashboard/hgrid247/engine/spark2ds.html)
+- Output file:
+            <project-name>_spark2ds.jar
+[Beam 2.29.0 (Batch)](https://hgridde.labs247.id/dashboard/hgrid247/engine/beam.html)
+- Output file:
+    <project-name>_beam.jar
+1. Apache [Beam 2.29.0 (Streaming)](https://hgridde.labs247.id/dashboard/hgrid247/engine/sbeam.html)
+    
+Output file:
+    <project-name>_sbeam.jar
+2. Output file:
+    <project-name>_sbeam.jar
+3. Apache [Flink 1.12.x (Batch)](https://hgridde.labs247.id/dashboard/hgrid247/engine/flink.html)
+    
+Output file:
+    <project-name>_flink.jar
+4. Output file:
+    <project-name>_flink.jar
+5. Apache [Flink 1.12.x (Streaming)](https://hgridde.labs247.id/dashboard/hgrid247/engine/sflink.html)
+    
+Output file:
+    <project-name>_sflink.jar
+6. Output file:
+    <project-name>_sflink.jar
+7. Apache [Tez 0.9.1](https://hgridde.labs247.id/dashboard/hgrid247/engine/tez.html)
+    
+Output file:
+    <project-name>_tez.jar
+8. Output file:
+    <project-name>_tez.jar
+9. Apache [PySpark](https://hgridde.labs247.id/dashboard/hgrid247/engine/pyspark.html)
+    
+Output file:
+    <flow-name>.py
+10. Output file:
+    <flow-name>.py
+[Beam 2.29.0 (Streaming)](https://hgridde.labs247.id/dashboard/hgrid247/engine/sbeam.html)
+- Output file:
+    <project-name>_sbeam.jar
+[Flink 1.12.x (Batch)](https://hgridde.labs247.id/dashboard/hgrid247/engine/flink.html)
+- Output file:
+    <project-name>_flink.jar
+[Flink 1.12.x (Streaming)](https://hgridde.labs247.id/dashboard/hgrid247/engine/sflink.html)
+- Output file:
+    <project-name>_sflink.jar
+[Tez 0.9.1](https://hgridde.labs247.id/dashboard/hgrid247/engine/tez.html)
+- Output file:
+    <project-name>_tez.jar
+[PySpark](https://hgridde.labs247.id/dashboard/hgrid247/engine/pyspark.html)
+- Output file:
+    <flow-name>.py
+
+## Summary

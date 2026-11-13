@@ -1,0 +1,1 @@
+{"nodes": [{"id": "qdrant", "label": "Qdrant", "file_type": "code", "source_file": "requirements.txt", "rationale": "Vector database used for RAG retrieval as indicated in requirements and UI snapshots."}], "edges": [], "hyperedges": []}

@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-03T03:55:49.247347+00:00",
+  "nodes": {
+    "api_chat_with_memory": {
+      "code_fingerprint": "ee4db5ee655014664b5254ba01a439c3da52cf0f28c4190a02cda772866a5467",
+      "label": "chat_with_memory()",
+      "last": "2026-08-29T06:42:06.971648+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-29T06:42:06.971648+00:00",
+          "outcome": "useful",
+          "q": "Cek apakah fase 3 sudah dieksekusi dan bagaimana hasilnya"
+        }
+      ],
+      "score": 0.893279008,
+      "source_file": "api.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "app_streamlit": {
+      "code_fingerprint": "f814a9fca3c5ecadb4682e2632af5223dc5218b91ad5c79d3da67e14762b6f75",
+      "label": "app_streamlit.py",
+      "last": "2026-08-29T06:42:06.971648+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-29T06:42:06.971648+00:00",
+          "outcome": "useful",
+          "q": "Cek apakah fase 3 sudah dieksekusi dan bagaimana hasilnya"
+        }
+      ],
+      "score": 0.893279008,
+      "source_file": "app_streamlit.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "chat": {
+      "code_fingerprint": "2c0a4ce438035d57959383132514cb96e5b0e4340a0dde7cdc62567ecc56928c",
+      "label": "chat.py",
+      "last": "2026-08-29T06:42:06.971648+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-29T06:42:06.971648+00:00",
+          "outcome": "useful",
+          "q": "Cek apakah fase 3 sudah dieksekusi dan bagaimana hasilnya"
+        }
+      ],
+      "score": 0.893279008,
+      "source_file": "chat.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "core_rag_tanya_hgrid_with_memory": {
+      "code_fingerprint": "c9a30cc887fd3871196758447f7359d4257b3b097c1992374427e44716b7a4dd",
+      "label": "tanya_hgrid_with_memory()",
+      "last": "2026-08-29T06:42:06.971648+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-29T06:42:06.971648+00:00",
+          "outcome": "useful",
+          "q": "Cek apakah fase 3 sudah dieksekusi dan bagaimana hasilnya"
+        }
+      ],
+      "score": 0.893279008,
+      "source_file": "core/rag.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "ingest": {
+      "code_fingerprint": "d8ff779430006f91e1c01391bf6e13e3d541b9b38d8dd265eed388eeaa4cdd11",
+      "label": "ingest.py",
+      "last": "2026-08-29T06:42:06.971648+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-29T06:42:06.971648+00:00",
+          "outcome": "useful",
+          "q": "Cek apakah fase 3 sudah dieksekusi dan bagaimana hasilnya"
+        }
+      ],
+      "score": 0.893279008,
+      "source_file": "ingest.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "tests_test_phase3_memory": {
+      "code_fingerprint": "a547e788d8382584324f2939f54af88750205a1d91f6df9879026e2663d231f5",
+      "label": "test_phase3_memory.py",
+      "last": "2026-08-29T06:42:06.971648+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-29T06:42:06.971648+00:00",
+          "outcome": "useful",
+          "q": "Cek apakah fase 3 sudah dieksekusi dan bagaimana hasilnya"
+        }
+      ],
+      "score": 0.893279008,
+      "source_file": "tests/test_phase3_memory.py",
+      "status": "tentative",
+      "uses": 1
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,243 @@
+{
+  "communities": {
+    "0": [
+      "api",
+      "api_chat",
+      "api_chatrequest",
+      "api_chatresponse",
+      "api_health_check",
+      "api_healthresponse",
+      "api_rationale_1",
+      "api_rationale_70",
+      "api_rationale_81",
+      "basemodel",
+      "get",
+      "post"
+    ],
+    "1": [
+      "app_streamlit",
+      "app_streamlit_font_data_uri",
+      "app_streamlit_rationale_1",
+      "app_streamlit_render_chat_history",
+      "app_streamlit_render_header",
+      "app_streamlit_render_sources",
+      "app_streamlit_render_status",
+      "app_streamlit_resolution_markup",
+      "app_streamlit_submit_prompt",
+      "core_config",
+      "core_config_rationale_1",
+      "exception"
+    ],
+    "2": [
+      "any",
+      "core_prompts",
+      "core_prompts_rationale_1",
+      "core_rag",
+      "core_rag_build_chunk_previews",
+      "core_rag_collect_sources",
+      "core_rag_extract_text_from_response",
+      "core_rag_rationale_1",
+      "core_rag_rationale_47",
+      "core_rag_rationale_98",
+      "core_rag_tanya_hgrid"
+    ],
+    "3": [
+      "api_rationale_36",
+      "api_startup",
+      "app_streamlit_init_resources",
+      "app_streamlit_rationale_497",
+      "cache_resource",
+      "chatgooglegenerativeai",
+      "core_rag_get_llm",
+      "core_rag_rationale_42",
+      "on_event"
+    ],
+    "4": [
+      "core_rag_get_embeddings",
+      "core_rag_get_vector_store",
+      "core_rag_rationale_24",
+      "core_rag_rationale_29",
+      "huggingfaceembeddings",
+      "qdrantvectorstore"
+    ],
+    "5": [
+      "chat",
+      "chat_print_sources",
+      "chat_rationale_1",
+      "chat_rationale_6",
+      "chat_tanya_hgrid"
+    ],
+    "6": [
+      "fase1_web_md",
+      "fase2_backend_api_md",
+      "implemetation_md"
+    ],
+    "7": [
+      "core_init",
+      "core_init_rationale_1"
+    ],
+    "8": [
+      "design_md"
+    ],
+    "9": [
+      "graphify_setup"
+    ],
+    "10": [
+      "impeccable_review_desktop_png"
+    ],
+    "11": [
+      "impeccable_review_mobile_png"
+    ],
+    "12": [
+      "ingest"
+    ],
+    "13": [
+      "product"
+    ],
+    "14": [
+      "qdrant_hgrid247_docs"
+    ],
+    "15": [
+      "running_md"
+    ],
+    "16": [
+      "step"
+    ],
+    "17": [
+      "tensegrity_retrieval_bench"
+    ]
+  },
+  "cohesion": {
+    "0": 0.24242424242424243,
+    "1": 0.21212121212121213,
+    "2": 0.2909090909090909,
+    "3": 0.2222222222222222,
+    "4": 0.4,
+    "5": 0.4,
+    "6": 0.6666666666666666,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0
+  },
+  "gods": [
+    {
+      "id": "core_rag_tanya_hgrid",
+      "label": "tanya_hgrid()",
+      "degree": 13
+    },
+    {
+      "id": "core_rag_get_vector_store",
+      "label": "get_vector_store()",
+      "degree": 9
+    },
+    {
+      "id": "core_rag_get_llm",
+      "label": "get_llm()",
+      "degree": 7
+    },
+    {
+      "id": "api_chat",
+      "label": "chat()",
+      "degree": 6
+    },
+    {
+      "id": "app_streamlit_init_resources",
+      "label": "init_resources()",
+      "degree": 6
+    },
+    {
+      "id": "api_startup",
+      "label": "startup()",
+      "degree": 5
+    },
+    {
+      "id": "app_streamlit_submit_prompt",
+      "label": "submit_prompt()",
+      "degree": 5
+    },
+    {
+      "id": "api_health_check",
+      "label": "health_check()",
+      "degree": 4
+    },
+    {
+      "id": "core_rag_extract_text_from_response",
+      "label": "extract_text_from_response()",
+      "degree": 4
+    },
+    {
+      "id": "core_rag_get_embeddings",
+      "label": "get_embeddings()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "chat()",
+      "target": "tanya_hgrid()",
+      "source_files": [
+        "api.py",
+        "core/rag.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "submit_prompt()",
+      "target": "tanya_hgrid()",
+      "source_files": [
+        "app_streamlit.py",
+        "core/rag.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "startup()",
+      "target": "get_vector_store()",
+      "source_files": [
+        "api.py",
+        "core/rag.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "init_resources()",
+      "target": "get_vector_store()",
+      "source_files": [
+        "app_streamlit.py",
+        "core/rag.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "startup()",
+      "target": "get_llm()",
+      "source_files": [
+        "api.py",
+        "core/rag.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 22808,
+    "output": 2533
+  }
+}
